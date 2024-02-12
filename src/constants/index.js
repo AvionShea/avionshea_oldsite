@@ -39,25 +39,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Developer",
     icon: mobile,
   },
   {
     title: "Frontend Developer",
+    icon: web
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Applications Developer",
-  },
-  {
-    title: "UX/UI Designer",
   },
 ];
 
@@ -114,7 +109,7 @@ const experiences = [
     company_name: "#100Devs",
     icon: devs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -127,12 +122,12 @@ const experiences = [
     company_name: "Wake County Public School System",
     icon: wcpss,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2017 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Adheres to strict monthly deadlines with a 97% completion rate.",
+      "Self-learned data loads, resulting in the cut of repetitive processing time by more than 50%.",
+      "Train additional team members to ensure transactions are processed accurately.",
+      "Manages five email accounts daily, utilizing strong verbal, written, and interpersonal communication skills to transition between detailed technical vs. business-oriented executive discussions to understand and convey complex technical issues.",
     ],
   },
   {
@@ -140,25 +135,25 @@ const experiences = [
     company_name: "Sheetz",
     icon: sheetz,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "January 2014 - March 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Interacted and assisted an average of 80+ customers during shifts",
+      "Adhered to policies and procedures that ensured cleanliness and safety",
+      "Helped open 2 stores by providing excellent training to new employee.",
+      "Passed secret shopper inspections each visit.",
     ],
   },
   {
-    title: "Team Member",
+    title: "Crew Member",
     company_name: "McDonald's",
     icon: mcdonalds,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2012 - January 2014",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Handled cash transactions for a multi-billion-dollar company.",
+      "Learned kitchen duties by being ambitious.",
+      "Cut wait times down by an average of 2 minutes with a 93% accuracy of packaged orders.",
+      "Took 91% of orders accurately resulting in a food waste decline of 34%.",
     ],
   },
 ];
