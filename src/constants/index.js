@@ -19,6 +19,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  mysql,
 } from "../assets";
 
 export const navLinks = [
@@ -100,6 +101,10 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
 ];
 
