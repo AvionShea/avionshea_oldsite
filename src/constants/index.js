@@ -105,42 +105,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Freelance Full-Stack Software Engineer",
-    company_name: "#100Devs",
-    icon: devs,
-    iconBg: "#383E56",
-    date: "June 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Data Entry Specialist - Oracle - HR",
+    title: "Data Analyst - Oracle - HR - Salary & Information Systems (40+ hours/week)",
     company_name: "Wake County Public School System",
     icon: wcpss,
     iconBg: "#E6DEDD",
     date: "March 2017 - Present",
     points: [
-      "Adheres to strict monthly deadlines with a 97% completion rate.",
-      "Self-learned data loads, resulting in the cut of repetitive processing time by more than 50%.",
-      "Train additional team members to ensure transactions are processed accurately.",
-      "Manages five email accounts daily, utilizing strong verbal, written, and interpersonal communication skills to transition between detailed technical vs. business-oriented executive discussions to understand and convey complex technical issues.",
+      "Data Analysis: Analyze and identify Oracle position data, provides employment recommendations, and ensures data accuracy with an 89% accuracy rate.",
+      "Collaboration: Collaborates and communicates effectively with a diverse stakeholder community, including technical staff, business users, government officials,  management, and cross-functional teams ensuring the adherence to best practices.",
+      "Compliance and Reporting: Maintains workflow records, communicated employment changes with Compensation Services, and adhered to strict monthly deadlines with a 97% completion rate.",
+      "Customer Support: Responds to and diagnosed user problems through discussion and troubleshooting, resolving issues, and escalating calls when necessary.",
+      "Documentation: Develops clear, concise documentation of user requests, resolutions, and challenges.",
     ],
   },
   {
-    title: "Salesperson",
+    title: "Records Retention Manager(40 hours/week)",
+    company_name: "Wake County Public School System",
+    icon: wcpss,
+    iconBg: "#E6DEDD",
+    date: "March 2017 - April 2018",
+    points: [
+      "Clerical Duties: Performed general clerical tasks such as utilizing new equipment for copying, faxing, and typing, developed and maintained personnel files, impacting a district of 20,000 employees, and complied with security procedures to ensure information remained secured and confidential.",
+      "Customer Service: Managed phone calls and emails, provided information and documents, handled office visits, and assisted hiring managers by obtaining personnel records within an hour of receiving the request resulting in a 52% decrease in idle time.",
+      "Issue Resolution: Investigated and resolved specific questions and concerns, and attended required meetings and training sessions.",
+    ],
+  },
+  {
+    title: "Customer Service Representative (Salesperson) (40 hours/week)",
     company_name: "Sheetz",
     icon: sheetz,
     iconBg: "#383E56",
     date: "January 2014 - March 2017",
     points: [
-      "Interacted and assisted an average of 80+ customers during shifts",
-      "Adhered to policies and procedures that ensured cleanliness and safety",
-      "Helped open 2 stores by providing excellent training to new employee.",
-      "Passed secret shopper inspections each visit.",
+      "Customer Engagement: Welcomed new and regular customers to the stores with top-tier customer service.",
+      "Service Excellence: Created magical experiences by serving quality food and beverages constructed to exact customer specifications in a safe, fast, and friendly manner with a 92% accuracy rate.",
+      "Transaction Management: Managed transactions at check-out, monitored appropriate sales of restricted products, and successfully passed secret shopper evaluations.",
+      "Store Maintenance: Maintained cleanliness in the store, kitchen, dining areas, and pumps, ensuring compliance with Quality Assurance and Health Inspection standards.",
+      "Inventory Management: Ensured goods were stocked throughout the store, and assisted with daily counts and inventory checks.",
     ],
   },
   {
@@ -150,10 +151,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2012 - January 2014",
     points: [
-      "Handled cash transactions for a multi-billion-dollar company.",
-      "Learned kitchen duties by being ambitious.",
-      "Cut wait times down by an average of 2 minutes with a 93% accuracy of packaged orders.",
-      "Took 91% of orders accurately resulting in a food waste decline of 34%.",
+      "Handled cash transactions for a multibillion-dollar company, accurately processing 91% of orders.",
+      "Operated the register and Point-Of-Sale system, supporting restaurant cleanliness and learning kitchen duties by being ambitious.",
+      "Cut wait times down by an average of 2 minutes, enhancing overall customer experience.",
     ],
   },
 ];
@@ -187,16 +187,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Job Board Scraper",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      [
+        "Custom job board where users can search any job board imaginable by providing the needed information. It features automated emails by integrating Nodemailer and node-cron to send a scheduled list of scraped jobs. Being built with Node.js, Puppeteer, Nodemailer, and node-cron.",
+      ],
     tags: [
       {
-        name: "react",
+        name: "node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodemailer",
+        color: "green-text-gradient",
+      },
+      {
+        name: "puppeteer",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "github.com/AvionShea/jobBoardScraper",
+  },
+  {
+    name: "Opulence Bank",
+    description:
+      [
+        "Opulence Banking is a financial SaaS platform designed to connect with multiple bank accounts, display transactions in real-time, allow users to transfer money to other platform users, and manage finances. It features authentication, responsiveness, and real-time updates. Built with Next.js, TypeScript, Appwrite, Plaid, Dwolla, React Hook Form, Zod, TailwindCSS, Chart.js, ShadCN."
+      ],
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -204,49 +229,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];
