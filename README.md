@@ -6,6 +6,7 @@ Personal portfolio and resume website.
 
 - [Screenshot](#screenshot)
 - [Tools](#built-with)
+- [Docs](#docs)
 - [Author](#author)
 
 ## Screenshot
@@ -22,6 +23,11 @@ Personal portfolio and resume website.
 - Three.js
 - Email JS
 - Vite
+
+## Docs
+
+- [Three JS Deployment on GitHub Pages - Video](https://www.loom.com/share/1d9a06ec11f542e5861ef7e85e38e912)
+- [Three JS Deployment on GitHub Pages - stackoverflow](https://stackoverflow.com/questions/73016488/how-do-i-deploy-a-three-js-project-to-github-pages)
 
 ## Author
 
