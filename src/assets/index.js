@@ -18,15 +18,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import mysql from "./tech/mysql.png"
+import java from "./tech/java.png"
 
 import devs from "./company/devs.jpg";
 import mcdonalds from "./company/mcdonalds.png";
 import sheetz from "./company/sheetz.png";
 import wcpss from "./company/wcpss.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import opulence from "./opulence.png";
+import scraper from "./scraper.png";
 
 export {
   logo,
@@ -47,12 +47,12 @@ export {
   tailwind,
   typescript,
   mysql,
+  java,
   threejs,
   devs,
   mcdonalds,
   sheetz,
   wcpss,
-  carrent,
-  jobit,
-  tripguide,
+  opulence,
+  scraper,
 };

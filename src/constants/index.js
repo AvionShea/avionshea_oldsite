@@ -15,11 +15,11 @@ import {
   mcdonalds,
   sheetz,
   wcpss,
-  carrent,
-  jobit,
-  tripguide,
+  opulence,
+  scraper,
   threejs,
   mysql,
+  java,
 } from "../assets";
 
 export const navLinks = [
@@ -43,15 +43,19 @@ const services = [
     icon: web,
   },
   {
-    title: "Web Developer",
-    icon: mobile,
+    title: "Bot Development",
+    icon: backend,
   },
   {
-    title: "Frontend Developer",
-    icon: web
+    title: "Web Development",
+    icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Development",
+    icon: mobile
+  },
+  {
+    title: "Backend Development",
     icon: backend,
   },
 ];
@@ -100,6 +104,10 @@ const technologies = [
   {
     name: "MySQL",
     icon: mysql,
+  },
+  {
+    name: "Java",
+    icon: java,
   },
 ];
 
@@ -206,7 +214,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: scraper,
     source_code_link: "github.com/AvionShea/jobBoardScraper",
   },
   {
@@ -229,8 +237,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: opulence,
+    source_code_link: "https://github.com/AvionShea/opulence-banking",
   },
 ];
 
