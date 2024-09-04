@@ -53,60 +53,9 @@ const services = [
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-];
-
 const experiences = [
   {
-    title: "Data Analyst - Oracle - HR - Salary & Information Systems (40+ hours/week)",
+    title: "Data Entry Specialist - Oracle - HR - Salary & Information Systems (40+ hours/week)",
     company_name: "Wake County Public School System",
     icon: wcpss,
     iconBg: "#E6DEDD",
@@ -136,7 +85,7 @@ const experiences = [
     company_name: "North Carolina Department of Revenue",
     icon: ncdor,
     iconBg: "#E6DEDD",
-    date: "Jan 2017 - Mar2017",
+    date: "January 2017 - March 2017",
     points: [
       "Assisted in the preparation and organization of tax forms for data entry into the state’s tax processing system, ensuring all documents were accurately compiled and sorted.",
       "Verified and cross-referenced information on tax forms to ensure completeness and compliance with state requirements, reducing processing errors by 10%.",
@@ -175,7 +124,7 @@ const experiences = [
     company_name: "Party City",
     icon: partycity,
     iconBg: "#E6DEDD",
-    date: "Oct 2013 - Nov 2013",
+    date: "October 2013 - November 2013",
     points: [
       " Provided exceptional customer service during the busy Halloween season, assisting up to 150 customers daily with costume selection, product inquiries, and checkout processes.",
       "Maintained store organization by restocking shelves, organizing displays, and ensuring a clean, welcoming environment for customers.",
@@ -249,6 +198,57 @@ const projects = [
     ],
     image: opulence,
     source_code_link: "https://github.com/AvionShea/opulence-banking",
+  },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Java",
+    icon: java,
   },
 ];
 
