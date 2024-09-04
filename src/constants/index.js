@@ -169,27 +169,17 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I have had the pleasure of working with Avion as her supervisor.  I have always been impressed with her professionalism, work ethic, and dedication. Avion is very reliable and a team player; always lending a helping hand to others.  She always takes initiative and does not shy away from the difficult tasks.  I am confident that Avion will be an asset to any company/organization that she works with.",
+    name: "Moné W.",
+    designation: "Shift Supervisor",
+    company: "Sheetz",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I have had  the honor of working with Avion since coming on board with SIS team. She played a huge part in my training. She is very patient and was able to identify that I am a visual person and quickly adapted the training to my learning style. Her knowledge of our work gave me the confidence needed to learn my job and function in a team setting. Her technical skills has giving our team an opportunity to move towards a digital platform, so our work can flow better. Her knowledge and feedback has giving great insight to our current work processing that may have needed fine tuning to ensure a better work flow. She continues to provide great feedback and is willing to help others in training as our team grows.",
+    name: "Michelle C.",
+    designation: "Data Analyst",
+    company: "Wake County Public School System",
   },
 ];
 
