@@ -39,8 +39,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I've done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={`${styles.sectionSubText} text-center`}>What I've done so far</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Work Experience.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
@@ -48,7 +48,7 @@ const Experience = () => {
           {
             experiences.map((experience, index) =>
             (
-              <ExperienceCard key={index} experience={experience} />
+              <ExperienceCard key={`experience-${index}`} experience={experience} />
             ))
           }
         </VerticalTimeline>
