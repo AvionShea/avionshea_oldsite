@@ -20,7 +20,8 @@ import threejs from "./tech/threejs.svg";
 import mysql from "./tech/mysql.png"
 import java from "./tech/java.png"
 
-import devs from "./company/devs.jpg";
+import partycity from "./company/partycity.jfif";
+import ncdor from "./company/ncdor.jfif";
 import mcdonalds from "./company/mcdonalds.png";
 import sheetz from "./company/sheetz.png";
 import wcpss from "./company/wcpss.png";
@@ -49,7 +50,8 @@ export {
   mysql,
   java,
   threejs,
-  devs,
+  ncdor,
+  partycity,
   mcdonalds,
   sheetz,
   wcpss,

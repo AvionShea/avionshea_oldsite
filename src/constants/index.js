@@ -11,7 +11,8 @@ import {
   nodejs,
   mongodb,
   git,
-  devs,
+  ncdor,
+  partycity,
   mcdonalds,
   sheetz,
   wcpss,
@@ -29,7 +30,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Work Experience",
   },
   {
     id: "contact",
@@ -39,8 +40,8 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Software Engineer",
-    icon: web,
+    title: "Software Development",
+    icon: mobile,
   },
   {
     title: "Bot Development",
@@ -49,14 +50,6 @@ const services = [
   {
     title: "Web Development",
     icon: web,
-  },
-  {
-    title: "Frontend Development",
-    icon: mobile
-  },
-  {
-    title: "Backend Development",
-    icon: backend,
   },
 ];
 
@@ -139,6 +132,19 @@ const experiences = [
     ],
   },
   {
+    title: "Seasonal Office Assistant (40 hours/week)",
+    company_name: "North Carolina Department of Revenue",
+    icon: ncdor,
+    iconBg: "#E6DEDD",
+    date: "Jan 2017 - Mar2017",
+    points: [
+      "Assisted in the preparation and organization of tax forms for data entry into the state’s tax processing system, ensuring all documents were accurately compiled and sorted.",
+      "Verified and cross-referenced information on tax forms to ensure completeness and compliance with state requirements, reducing processing errors by 10%.",
+      "Collaborated with a team to manage the flow of tax documents, facilitating efficient handling and timely entry of over 2,000 forms per week.",
+      "Utilized office equipment and software to scan, file, and archive tax documents, maintaining an organized and accessible database for future reference.",
+    ],
+  },
+  {
     title: "Customer Service Representative (Salesperson) (40 hours/week)",
     company_name: "Sheetz",
     icon: sheetz,
@@ -164,22 +170,36 @@ const experiences = [
       "Cut wait times down by an average of 2 minutes, enhancing overall customer experience.",
     ],
   },
+  {
+    title: "Seasonal Sales Associate",
+    company_name: "Party City",
+    icon: partycity,
+    iconBg: "#E6DEDD",
+    date: "Oct 2013 - Nov 2013",
+    points: [
+      " Provided exceptional customer service during the busy Halloween season, assisting up to 150 customers daily with costume selection, product inquiries, and checkout processes.",
+      "Maintained store organization by restocking shelves, organizing displays, and ensuring a clean, welcoming environment for customers.",
+      "Efficiently processed transactions using POS systems, maintaining accuracy and speed during high-volume sales periods.",
+      "Collaborated with a team of associates to set up promotional displays and in-store events, contributing to a 20% increase in seasonal sales.",
+      "Demonstrated adaptability and problem-solving skills in a fast-paced retail environment, consistently meeting daily sales goals and customer satisfaction targets.",
+    ],
+  },
 ];
 
 const testimonials = [
+  {
+    testimonial:
+      "I have had  the honor of working with Avion since coming on board with Salary & Information Systems team. She played a huge part in my training. She is very patient and was able to identify that I am a visual person and quickly adapted the training to my learning style. Her knowledge of our work gave me the confidence needed to learn my job and function in a team setting. Her technical skills has giving our team an opportunity to move towards a digital platform, so our work can flow better. Her knowledge and feedback has giving great insight to our current work processing that may have needed fine tuning to ensure a better work flow. She continues to provide great feedback and is willing to help others in training as our team grows.",
+    name: "Michelle C.",
+    designation: "Data Analyst",
+    company: "Wake County Public School System",
+  },
   {
     testimonial:
       "I have had the pleasure of working with Avion as her supervisor.  I have always been impressed with her professionalism, work ethic, and dedication. Avion is very reliable and a team player; always lending a helping hand to others.  She always takes initiative and does not shy away from the difficult tasks.  I am confident that Avion will be an asset to any company/organization that she works with.",
     name: "Moné W.",
     designation: "Shift Supervisor",
     company: "Sheetz",
-  },
-  {
-    testimonial:
-      "I have had  the honor of working with Avion since coming on board with SIS team. She played a huge part in my training. She is very patient and was able to identify that I am a visual person and quickly adapted the training to my learning style. Her knowledge of our work gave me the confidence needed to learn my job and function in a team setting. Her technical skills has giving our team an opportunity to move towards a digital platform, so our work can flow better. Her knowledge and feedback has giving great insight to our current work processing that may have needed fine tuning to ensure a better work flow. She continues to provide great feedback and is willing to help others in training as our team grows.",
-    name: "Michelle C.",
-    designation: "Data Analyst",
-    company: "Wake County Public School System",
   },
 ];
 
