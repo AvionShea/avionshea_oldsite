@@ -55,7 +55,7 @@ const services = [
 
 const experiences = [
   {
-    title: "Data Entry Specialist - Oracle - HR - Salary & Information Systems (40+ hours/week)",
+    title: "Data Analyst - Oracle - HR - Salary & Information Systems (40+ hours/week)",
     company_name: "Wake County Public School System",
     icon: wcpss,
     iconBg: "#E6DEDD",
