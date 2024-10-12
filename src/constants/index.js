@@ -114,7 +114,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2012 - January 2014",
     points: [
-      "Handled cash transactions for a multibillion-dollar company, accurately processing 91% of orders.",
+      "Handled cash transactions for a multibillion-dollar corporation, accurately processing 91% of orders.",
       "Operated the register and Point-Of-Sale system, supporting restaurant cleanliness and learning kitchen duties by being ambitious.",
       "Cut wait times down by an average of 2 minutes, enhancing overall customer experience.",
     ],
