@@ -17,6 +17,7 @@
     "@react-three/fiber": "^8.13.4",
     "babel": "^6.23.0",
     "braces": "^3.0.3",
+    "cross-spawn": "^7.0.6",
     "dotenv": "^16.4.2",
     "framer-motion": "^10.12.18",
     "gh-pages": "^6.1.1",
